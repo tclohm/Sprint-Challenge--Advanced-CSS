@@ -6,6 +6,8 @@
 
 	.flex-column-align-center();
 
+	padding-top: 1vh;
+
 	background-color: @nav-bg;
 	border-bottom: 1px solid @main-border-color;
 
@@ -14,14 +16,17 @@
 	}
 
 	.navigation {
-		width: 25%;
-		
+		width: 50vh;
 		.flex-row-space-around();
-
 		padding: 2vh 0 1vh 0;
+
+		@media @phone {
+			width: 40vh;
+		}
 
 
 		a {
+			padding: 5px 0 5px 0;
 			font-size: 1.6rem;
 			font-family: @nav-font;
 			text-decoration: none;
