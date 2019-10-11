@@ -1,1 +1,30 @@
 // Navigation code here
+
+.navigation-container {
+	width: 100%;
+	// intrinsic height from content
+
+	.flex-column-align-center();
+
+	background-color: @nav-bg;
+	border-bottom: 1px solid @main-border-color;
+
+	h1 {
+		font-size: 3.8rem;
+	}
+
+	.navigation {
+		width: 25%;
+		
+		.flex-row-space-around();
+
+		padding: 2vh 0 1vh 0;
+
+
+		a {
+			font-size: 1.6rem;
+			font-family: @nav-font;
+			text-decoration: none;
+		}
+	}
+}
