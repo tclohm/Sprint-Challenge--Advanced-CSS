@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+
+	An adaptive website will have many different viewport layouts that will change the layout depending on the brower's size. The browser will select the most appropriate layout, from a set of breakpoint's the designer/developer creates, for the bounds of the viewport. There is more fine control over the aesthetic of the site.
+
+	An responsive website will dynamically move the content when the browser's viewport is being expanded or shrunk. The overall design of the site will not change. It allow's for site to have consistent feel from desktop to mobile. However, you have less screen control when designing for different screen sizes.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+	The first approach is when you're building for one specific size screen first. There's a debate between the two approaches and there are arguements for both. The mobile first experience is about allowing users to access your content through your phone. That means there is limited amount space and so it would have less functionality, if you wanted to create a good user experience, compared to the desktop first. The desktop approach could be used to communicate more content because of the amount of space given. In the end, both of these approaches are about looking at the screen size and defining what content will be given to the user on the other end.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+	The magic number, 62.5%, will reset all of our font size to a base of 10px, which equals to 1 rem, so we can easily adjust the font size by thinking in rems instead of keeping track of the parent em. All we have to worry about is the Root EM (REM), which will be our 'source of truth' while working with fonts-size.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+	Preprocessing is a process in which a compiler that takes your written code as input, and manipulates it to output it into regular CSS syntax. The preprocessor does the heavy lifting of making it into readable CSS code that gets stored into a css file.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+	My favorite concept in prepocessing is the nesting of elements. It all lives in one place and easy to find. The most troubling concept would be the parametric mixins. I just need more time to play with it.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
