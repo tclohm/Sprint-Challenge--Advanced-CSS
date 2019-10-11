@@ -1,1 +1,36 @@
 // Mixins Here
+
+
+.flex-column-align-center() {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.flex-row-space-around() {
+	display: flex;
+	justify-content: space-around;
+}
+
+// Parametric Mixin
+
+.custom-button(@bg-color: @header-font-color, @font-color: white) {
+
+	height: 4vh;
+	width: 10vh;
+
+	border-radius: 5px;
+
+	background-color: @bg-color;
+	color: @font-color;
+
+	font-size: 1.6rem;
+	line-height: 4vh;
+
+	text-decoration: none;
+	text-align: center;
+
+
+	// media query here!
+	
+}
